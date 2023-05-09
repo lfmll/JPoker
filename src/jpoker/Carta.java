@@ -5,6 +5,8 @@
  */
 package jpoker;
 
+import java.text.MessageFormat;
+
 /**
  *
  * @author luisfernandomedinallorenti
@@ -72,4 +74,5 @@ public final class Carta {
         }
         return result;
     }
+    
 }
