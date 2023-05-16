@@ -3,12 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package jpoker;
+package jpoker.org.poker.api.core;
 
 /**
  *
  * @author luisfernandomedinallorenti
  */
-public interface IManoEvaluador {
-    public int eval(Carta[] cartas);
+public interface ICombinatorial {
+    public long combinations();
+    public int size();
+    public void clear();
+    public int[] next(int[] items);
+    public boolean hasNext();
 }

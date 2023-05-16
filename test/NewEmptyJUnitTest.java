@@ -6,7 +6,7 @@
 
 import java.util.HashSet;
 import java.util.Set;
-import jpoker.Carta;
+import jpoker.org.poker.api.core.Carta;
 import static org.hamcrest.CoreMatchers.hasItem;
 import static org.hamcrest.CoreMatchers.not;
 import org.junit.After;

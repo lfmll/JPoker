@@ -5,9 +5,14 @@
         <group>
             <file>file:/home/luisfernandomedinallorenti/NetBeansProjects/JPoker/src/jpoker/Baraja.java</file>
             <file>file:/home/luisfernandomedinallorenti/NetBeansProjects/JPoker/src/jpoker/JPoker.java</file>
+            <file>file:/home/luisfernandomedinallorenti/NetBeansProjects/JPoker/src/jpoker/IManoEvaluador.java</file>
+            <file>file:/home/luisfernandomedinallorenti/NetBeansProjects/JPoker/src/jpoker/ManoEvaluador.java</file>
             <file>file:/home/luisfernandomedinallorenti/NetBeansProjects/JPoker/src/jpoker/Carta.java</file>
             <file>file:/home/luisfernandomedinallorenti/NetBeansProjects/JPoker/test/NewEmptyJUnitTest.java</file>
+            <file>file:/home/luisfernandomedinallorenti/NetBeansProjects/JPoker/src/jpoker/ExceptionUtil.java</file>
+            <file>file:/home/luisfernandomedinallorenti/NetBeansProjects/JPoker/src/jpoker/Combination.java</file>
             <file>file:/home/luisfernandomedinallorenti/NetBeansProjects/JPoker/src/jpoker/Mano.java</file>
+            <file>file:/home/luisfernandomedinallorenti/NetBeansProjects/JPoker/src/jpoker/ICombinatorial.java</file>
         </group>
     </open-files>
 </project-private>

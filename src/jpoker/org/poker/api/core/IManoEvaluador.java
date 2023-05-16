@@ -3,19 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package jpoker;
+package jpoker.org.poker.api.core;
 
 /**
  *
  * @author luisfernandomedinallorenti
  */
-public class JPoker {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+public interface IManoEvaluador {
+    public int eval(Carta[] cartas);
 }
