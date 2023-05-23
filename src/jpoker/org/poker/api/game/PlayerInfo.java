@@ -50,6 +50,10 @@ public class PlayerInfo {
     public Carta[] getCards() {
         return new Carta[]{cards[0],cards[1]};
     }
+    
+    public Carta getCard(int index){
+        return cards[index];
+    }
 
     public void setCards(Carta[] cards) {
         this.cards[0] = cards[0];
@@ -60,6 +64,15 @@ public class PlayerInfo {
         this.cards[0]=card0;
         this.cards[1]=card1;
     }
+
+    public PlayerState getState() {
+        return state;
+    }
+
+    public void setState(PlayerState state) {
+        this.state = state;
+    }
+        
     public int getErrors() {
         return errors;
     }

@@ -37,8 +37,8 @@ public class GameInfo<P extends PlayerInfo> {
 
     public void setDealer(int dealer) {
         this.dealer = dealer;
-    }
-
+    }    
+    
     public int getPlayerTurn() {
         return playerTurn;
     }
@@ -49,12 +49,20 @@ public class GameInfo<P extends PlayerInfo> {
 
     public TexasHoldEmUtil.GameState getGameState() {
         return gameState;
-    }
-
+    }    
+    
     public void setGameState(TexasHoldEmUtil.GameState gameState) {
         this.gameState = gameState;
     }
-
+    
+    public List<Carta> getCommunityCards(){
+        return new ArrayList<>(communityCards);
+    }
+    
+    public void setCommunityCards(List<Carta> communityCards){
+        this.communityCards.clear();
+        this.communityCards.addAll(communityCards);
+    }
     public List<P> getPlayers() {
         return players;
     }
