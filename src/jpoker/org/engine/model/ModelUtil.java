@@ -70,7 +70,7 @@ public class ModelUtil {
         player.setChips(player.getChips()-chips);
     }
     
-    public static void invrementErrors(PlayerEntity player, Settings settings){
+    public static void incrementErrors(PlayerEntity player, Settings settings){
         int errors=player.getErrors()+1;
         player.setErrors(errors);
         if (errors >= settings.getMaxErrors()) {

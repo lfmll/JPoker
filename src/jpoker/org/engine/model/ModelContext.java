@@ -86,6 +86,16 @@ public class ModelContext {
     public void setDealer(int dealer) {
         this.gameInfo.setDealer(dealer);
     }
+
+    public PlayerEntity getLastPlayerBet() {
+        return lastPlayerBet;
+    }
+
+    public void setLastPlayerBet(PlayerEntity lastPlayerBet) {
+        this.lastPlayerBet = lastPlayerBet;
+    }
+    
+    
     
     public int getRound(){
         return gameInfo.getRound();
