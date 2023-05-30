@@ -5,6 +5,8 @@
  */
 package jpoker.org.poker.api.game;
 
+import jpoker.org.engine.controller.GameException;
+
 /**
  *
  * @author luisfernandomedinallorenti
@@ -12,6 +14,6 @@ package jpoker.org.poker.api.game;
 public interface IGameController {
     public void setSettings(Settings settings);
     public boolean addStrategy(IStrategy strategy);
-    public void start();
+    public void start() throws GameException;
     public void waitFinish();
 }
