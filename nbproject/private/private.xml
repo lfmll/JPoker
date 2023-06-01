@@ -11,6 +11,7 @@
             <file>file:/home/luisfernandomedinallorenti/NetBeansProjects/JPoker/src/jpoker/org/poker/api/core/ExceptionUtil.java</file>
             <file>file:/home/luisfernandomedinallorenti/NetBeansProjects/JPoker/src/jpoker/org/poker/api/game/TexasHoldEmUtil.java</file>
             <file>file:/home/luisfernandomedinallorenti/NetBeansProjects/JPoker/test/NewEmptyJUnitTest.java</file>
+            <file>file:/home/luisfernandomedinallorenti/NetBeansProjects/JPoker/src/jpoker/org/engine/controller/GameException.java</file>
             <file>file:/home/luisfernandomedinallorenti/NetBeansProjects/JPoker/src/jpoker/org/util/dispatcher/GameEventDispatcher.java</file>
             <file>file:/home/luisfernandomedinallorenti/NetBeansProjects/JPoker/src/jpoker/org/engine/states/BetRoundState.java</file>
             <file>file:/home/luisfernandomedinallorenti/NetBeansProjects/JPoker/src/jpoker/org/util/statemachine/IChecker.java</file>
